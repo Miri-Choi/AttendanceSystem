@@ -12,7 +12,6 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
-
 public class PaispcWokmgtApiController {
     private final PaispcWokmgtService paispcWokmgtService;
 

@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>TEST</title>
+    <meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=1.0, text/html;charset=UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/style/css/webFont.css" rel="stylesheet">
+</head>
+<body>
+<div style="display:flex; justify-content: center">
+    <h1>TEST ( 수정 )</h1>
+</div>
+<br>
+<hr>
+<br>
+<div class="col-md-12">
+    <div class="col-md-4">
+        <form>
+            <div class="form-group">
+                <label for="realDate">RealDate</label>
+                <input type="number" class="form-control" id="realDate" placeholder="Type RealDate" value={{paispcWokmgt.realDate}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="perdilStime">PerdilStime</label>
+                <input type="text" class="form-control" id="perdilStime" placeholder="Type PerdilStime" value={{paispcWokmgt.perdilStime}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="perdilEtime">PerdilEtime</label>
+                <input type="text" class="form-control" id="perdilEtime" placeholder="Type PerdilEtime" value={{paispcWokmgt.perdilEtime}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="restStime">RestStime</label>
+                <input type="text" class="form-control" id="restStime" placeholder="Type RestStime" value={{paispcWokmgt.restStime}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="restEtime">RestEtime</label>
+                <input type="text" class="form-control" id="restEtime" placeholder="Type RestEtime" value={{paispcWokmgt.restEtime}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="realTime">RealTime</label>
+                <input type="text" class="form-control" id="realTime" placeholder="Type RealTime" value={{paispcWokmgt.realTime}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="reqRetn">ReqRetn</label>
+                <input type="text" class="form-control" id="reqRetn" placeholder="Type ReqRetn" value={{paispcWokmgt.reqRetn}}>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="userLevel">UserLevel</label>
+                <input type="number" class="form-control" id="userLevel" placeholder="Type UserLevel" value={{paispcWokmgt.userLevel}}>
+            </div>
+            <br>
+            <input type="hidden" id="id" value={{paispcWokmgt.id}}>
+        </form>
+        <a href="/" role="button" class="btn btn-secondary">취소</a>
+        <button type="button" class="btn btn-primary" id="btn-update">수정</button>
+    </div>
+</div>
+<!-- jquery & bootstrap script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<!-- index.js -->
+<script src="/js/app/index.js"></script>
+</body>
+</html>
